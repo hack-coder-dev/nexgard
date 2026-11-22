@@ -1,0 +1,40 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Runtime database, device registry, cache, audio, and image data
+data/**
+!data/.gitkeep
+
+# Downloaded model weights and generated engines (downloaded by setup-ai.sh)
+models/**
+!models/.gitkeep
+*.onnx
+*.pt
+*.engine
+
+# Local TLS material and private keys
+nexgard-local-ca.crt
+*.key
+*.pem
+*.csr
+*.crt
+*.srl
+*.backup.*
+
+# Logs, temporary files, archives
+*.log
+*.tmp
+*.download
+*.zip
+.DS_Store
+Thumbs.db

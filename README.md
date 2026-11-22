@@ -152,7 +152,7 @@ If `python3 -m venv` reports that `ensurepip` is unavailable, install the matchi
 1. Clone the repository or download the source ZIP from GitHub.
 
    ```bash
-   git clone https://github.com/<YOUR-ACCOUNT>/nexgard-security.git
+   git clone https://github.com/hack-coder-dev//nexgard.git
    cd nexgard-security
    ```
 
